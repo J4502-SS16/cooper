@@ -1,1 +1,71 @@
-This will be my css file
+
+
+body {
+  font-family: "Lucinda Grande", Helvetica, Arial, sans-serif;
+}
+
+.logo {
+  width: 100px;
+  float: left;
+  margin-right: 5px;
+  border-style: none;
+}
+
+h1 {
+  font-size: 25px;
+  padding-top: 25px;
+  font-family: Georgia, Times, serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#main {
+  background-color: #ccffff;
+  width: 500px;
+  float: left;
+}
+
+#sidebar {
+  background-color: #ddd;
+  width: 200px;
+  float: right;
+  border-left: 2px solid #ccc;
+  padding-left: 15px;
+}
+
+#footer {
+  background-color: #eded78;
+  clear: both;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav a:link, #nav a:visited {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 0;
+  color: #fff;
+  background-color: #98bf21;
+  display: block;
+  width: 125px;
+}
+
+#nav a:hover, #nav a:active {
+  background-color: #7a991a;
+}
